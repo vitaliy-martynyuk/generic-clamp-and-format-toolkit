@@ -38,7 +38,7 @@ namespace io
 
 	void printSessionLimitExceededError()
 	{
-		cout << "Session limit exeeded! Quitting...\n";
+		cout << "\nSession limit exceeded! Quitting...\n";
 	}
 
 	namespace helpers

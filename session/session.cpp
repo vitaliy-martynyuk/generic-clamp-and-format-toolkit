@@ -89,5 +89,6 @@ namespace session
 	void endSessionLimitExceeded()
 	{
 		io::printSessionLimitExceededError();
+		endSession();
 	}
 }
