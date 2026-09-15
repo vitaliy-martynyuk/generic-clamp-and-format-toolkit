@@ -152,6 +152,7 @@
     <ClInclude Include="helpers\describe.h" />
     <ClInclude Include="helpers\helpers.h" />
     <ClInclude Include="helpers\in_range.h" />
+    <ClInclude Include="helpers\type_name.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
