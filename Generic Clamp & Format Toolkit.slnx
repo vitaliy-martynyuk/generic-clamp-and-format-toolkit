@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Generic Clamp &amp; Format Toolkit.vcxproj" />
+  <Project Path="Generic Clamp &amp; Format Toolkit.vcxproj" Id="1908a4e9-885a-4dcc-aead-5c04ff55d699" />
 </Solution>
