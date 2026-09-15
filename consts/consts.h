@@ -10,7 +10,7 @@ namespace constants
 	constexpr char inRangeCode{ 'r' };
 	constexpr char typeNameCode{ 't' };
 	constexpr char quitCode{ 'q' };
-	constexpr std::uint8_t sessionLimit{ 3 };
+	constexpr std::uint8_t sessionLimit{ 99 };
 }
 
 #endif
