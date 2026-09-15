@@ -6,7 +6,7 @@ namespace io
 	char getFunctionCode();
 
 	void printFunctionCodeError();
-	void printSessionLimitExeededError();
+	void printSessionLimitExceededError();
 
 	namespace helpers
 	{

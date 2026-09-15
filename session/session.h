@@ -7,7 +7,12 @@ namespace session
 {
 	char setFunctionCode();
 	std::uint8_t getSessionCounter();
-	void endSessionLimitExeeded();
+	void endSessionLimitExceeded();
+	void endSession();
+	bool wasClampUsed();
+	bool wasDescribeUsed();
+	bool wasInRangeUsed();
+	bool wasTypeNameUsed();
 }
 
 #endif

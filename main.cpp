@@ -11,25 +11,27 @@ int main()
 		switch (code) {
 		case constants::quitCode:
 			std::cout << "Quitting...\n";
+			session::endSession();
 			return EXIT_SUCCESS;
 		case constants::clampCode:
-			std::cout << "Using clamp...\n";
+			std::cout << "clamp(10, 1, 5) = " << helpers::clamp(10, 1, 5) << '\n';
 			break;
 		case constants::describeCode:
-			std::cout << "Using describe...\n";
+			std::cout << "describe(\"label\", 16.5f) = ";
+			helpers::describe("label", 16.5f);
 			break;
 		case constants::inRangeCode:
-			std::cout << "Using inRange...\n";
+			std::cout << "inRange(10, 1, 10, false) = " << helpers::inRange(10, 1, 10, false) << '\n';
 			break;
 		case constants::typeNameCode:
-			std::cout << "Using inRange...\n";
+			std::cout << "typeName(12.0f) = " << helpers::typeName(12.0f) << '\n';
 			break;
 		default:
 			assert(false && "Invalid code!");
 		}
 	}
 
-	session::endSessionLimitExeeded();
+	session::endSessionLimitExceeded();
 
 	return EXIT_SUCCESS;
 }

@@ -36,7 +36,7 @@ namespace io
 			<< constants::typeNameCode << "')\n";
 	}
 
-	void printSessionLimitExeededError()
+	void printSessionLimitExceededError()
 	{
 		cout << "Session limit exeeded! Quitting...\n";
 	}
