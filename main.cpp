@@ -13,6 +13,7 @@ int main()
 	std::cout << clamp(9.9f, 0.0f, 1.0f) << '\n';
 	std::cout << clamp(1, 1, 10) << '\n';
 	std::cout << clamp(10, 1, 10) << '\n';
+	std::cout << clamp<double>(5, 1, 10.0) << '\n';
 
 	return 0;
 }
